@@ -22,8 +22,7 @@ from sql import crud, models, schemas,otp
 from sql.database import SessionLocal, engine
 
 
-DATABASE_URL = "mysql://stbitdbuser:9cAxIccp+p*vPJsA@localhost:3306/sudharsan"
-# database = database.Database(DATABASE_URL)
+
 
 models.Base.metadata.create_all(bind=engine)
 
